@@ -1,5 +1,49 @@
-h1 {
-  color: blue;
+input:focus {
+  outline: none;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #e67e22;
+}
+
+.stuff{
+  display: flex;
+  flex-direction: column;
+}
+
+.stuff input {
+  padding: 20px;
+  font-size: 1.8rem;
+  border: none;
+  border-bottom: 1px solid #34495e;
+  background: transparent;
+}
+
+.stuff input[type=submit] {
+  margin-top: 2rem;
+  border: 1px solid #34495e;
+  transition: all 0.3s;
+}
+
+.stuff input[type=submit]:hover {
+  background: #34495e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.stuff h1 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
+
 
 /*# sourceMappingURL=styles.css.map */
